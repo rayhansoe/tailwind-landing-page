@@ -1,0 +1,16 @@
+{
+	"name": "tailwind-landing-page",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tailwindcss -i ./src/css/styles.css -o ./public/css/tailwind.css"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"autoprefixer": "^10.4.0",
+		"postcss": "^8.3.11",
+		"tailwindcss": "^2.2.19"
+	}
+}
