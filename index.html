@@ -19,12 +19,12 @@
 					/>
 				</div>
 				<div class="flex gap-5 text-xl font-medium">
-					<a href="#" class="text-gray-700">Belajar</a>
-					<a href="#" class="text-gray-700">Nongkrong</a>
-					<a href="#" class="text-gray-700">Login</a>
+					<a class='hover:underline' href="#" class="text-gray-700">Belajar</a>
+					<a class='hover:underline' href="#" class="text-gray-700">Nongkrong</a>
+					<a class='hover:underline' href="#" class="text-gray-700">Login</a>
 				</div>
 			</nav>
-			<section class="flex mt-20">
+			<section class="flex mt-20 justify-around">
 				<div class="flex flex-col items-center w-2/4 p-2 text-center gap-y-3">
 					<img
 						src="public/img/computer.png"
@@ -38,7 +38,27 @@
 						juga bisa!
 					</h2>
 				</div>
-				.
+				<div class="flex flex-col items-center w-1/4 p-5 gap-4 shadow-lg justify-center rounded border border-gray-50 hover:border-gray-200 hover:shadow-2xl">
+					<div class="flex flex-col gap-3 text-center">
+						<p>Daftar dengan:</p>
+						<div class="flex gap-2 mx-auto">
+							<button class="py-1 px-6 bg-red-500 rounded text-white">Google</button>
+							<button class="py-1 px-6 bg-black rounded text-white">Github</button>
+							<button class="py-1 px-6 bg-blue-400 rounded text-white">Twitter</button>
+						</div>
+						<p>atau daftar dengan email</p>
+						<input class="bg-gray-200 rounded py-5 pl-2" placeholder="Username" type="text" />
+						<input class="bg-gray-200 rounded py-5 pl-2" placeholder="Email" type="email" />
+						<input class="bg-gray-200 rounded py-5 pl-2" placeholder="Password" type="password" />
+						<button class="bg-blue-900 text-white rounded py-3 bg-opacity-70">Daftar</button>
+						<p>
+							Dengan mendaftar, kamu setuju dengan
+							<a class="underline" href="#">syarat dan ketentuan</a> kami
+					</div>
+					<!-- <div class="flex flex-col text-center">
+						</p> -->
+					</div>
+				</div>
 			</section>
 		</div>
 	</body>
